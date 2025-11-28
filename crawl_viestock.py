@@ -53,8 +53,8 @@ class Crawler:
 
     def normal_login(
             self,
-            email: Optional[str] = 'kientrungtn03@gmail.com',
-            password: Optional[str] = 'kien1234'
+            email: Optional[str] = '',
+            password: Optional[str] = ''
     ) -> None:
         # try:
         #     self.find_and_interact_btn(
